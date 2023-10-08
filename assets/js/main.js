@@ -34,8 +34,8 @@ $(document).ready(function(){
 	let userLang = navigator.language || navigator.userLanguage;
 	if(localStorage.getItem("lan") === null){
 		localStorage.lan = "en";
-		if (userLang.split('-')[0] == "it")
-			localStorage.lan = "it";
+		//if (userLang.split('-')[0] == "it")
+		//	localStorage.lan = "it";
 	}
 
 	// Maybe first time or not, so load the localStorage value
