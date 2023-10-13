@@ -43,6 +43,10 @@ h1, h2, h3, h4, b {
 	box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.7) !important;
 }
 
+.navbar-brand {
+	background-color: var(--nv-color) !important;
+}
+
 /* OPTION BUTTON */
 .options-button {
 	background-color: var(--bs-gray-700);
