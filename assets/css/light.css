@@ -14,7 +14,7 @@ h1, h2, h3, h4, b {
 }
 
 #top-nav {
-	background-color:rgb(248, 249, 250) !important;
+	background-color:rgb(222, 226, 231) !important;
 }
 
 .nav-link {
@@ -68,4 +68,9 @@ h1, h2, h3, h4, b {
 
 .academic-block {
 	border-left: 2px #22517d solid;
+}
+
+
+.h5 {
+	color: #22517d;
 }

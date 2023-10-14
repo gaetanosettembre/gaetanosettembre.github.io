@@ -164,22 +164,22 @@ $(document).ready(function(){
 		}
 	});
 
-	// Handle 'Conferences' content
-	// $('#conferences').click(function(e) {
+/* 	//Handle 'Conferences' content
+	$('#conferences').click(function(e) {
 
-	// 	// If the div has already the class active, no need to reload the divs...
-	// 	if(!$(e.target).hasClass('active')) {
-	// 		// Update navbar
-	// 		clearActiveLinks();
-	// 		activateLink(e);
+	// If the div has already the class active, no need to reload the divs...
+	if(!$(e.target).hasClass('active')) {
+			// Update navbar
+	 		clearActiveLinks();
+	 		activateLink(e);
 
-	// 		// Hide other contents
-	// 		clearActiveDivs();
+	 		// Hide other contents
+	 		clearActiveDivs();
 
-	// 		// Show current content
-	// 		activateDiv('#conferencesContent');
-	// 	}
-	// });
+	 		// Show current content
+	 		activateDiv('#conferencesContent');
+	 	}
+	}); */
 
 	// Handle 'Experience' content
 	// $('#experience').click(function(e) {
@@ -382,10 +382,4 @@ function scrollToContent(divId) {
 			scrollTop: $(divId).offset().top
 		}, 1);
 	}
-}
-
-function resetViews() {
-	$.getJSON("https://api.countapi.xyz/set/nicolasmeseguer.github.io/634c2142-b35d-430e-b51c-dad16880dd3a?value=0", function(response) {
-		$("#contadorVisitas").text("0");
-	});
 }
