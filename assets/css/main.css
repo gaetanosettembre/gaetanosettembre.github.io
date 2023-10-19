@@ -82,16 +82,17 @@ li > .active {
 }
 
 .pub-year-h2 {
-	font-size: 3.2em;
+	font-size: 3.0em;
 	font-weight: 100;
 }
 
 .pub-authors {
-	font-weight: 400;
+	font-weight: 350;
 }
 
 .pub-authors .pub-author {
-	font-weight: 500;
+	font-weight: 600;
+	text-decoration: underline;
 }
 
 .pub-congress {
