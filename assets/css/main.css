@@ -79,6 +79,7 @@ li > .active {
 
 .h5 {
 	/*color: #22517d;*/
+	font-size: 1.1em;
 }
 
 .h4 {
@@ -92,6 +93,7 @@ li > .active {
 
 .pub-authors {
 	font-weight: 350;
+	font-size: 1em;
 }
 
 .pub-authors .pub-author {
@@ -101,6 +103,7 @@ li > .active {
 
 .pub-congress {
 	font-weight: 100;
+	font-size: 1.0em;
 }
 
 .pub-force-margin-left {
