@@ -81,8 +81,12 @@ li > .active {
 	/*color: #22517d;*/
 }
 
+.h4 {
+	/*color: #22517d;*/
+}
+
 .pub-year-h2 {
-	font-size: 3.0em;
+	font-size: 2.5em;
 	font-weight: 100;
 }
 
