@@ -647,13 +647,13 @@ section,
 }
 
 .about .content ul li {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
 }
 
 .about .content ul strong {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .about .content ul i {
