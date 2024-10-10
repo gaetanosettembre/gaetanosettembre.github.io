@@ -1,1179 +1,898 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<!-- Meta tags -->
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-		<meta name="description" content="Gaetano Settembre's website, biography, education, previous experience and published papers."/>
-		<meta name="keywords" content="gaetanosettembre, GaetanoSettembre, Gaetano Settembre, gaetano settembre uniba, gaetano settembre midas, gaetano settembre papers, gaetano settembre planetek, gaetano settembre portfolio"/>
-		
-		<meta name="author" content="Gaetano Settembre"/>
-		<meta name="copyright" content="Work protected by copyright; no distribution without permission." />
-
-		<meta property="og:title" content="Gaetano Settembre">
-		<meta name="author" content="Gaetano Settembre">
-		<meta property="og:locale" content="en">
-		<meta name="description" content="Gaetano Settembre is a Ph.D. student in Computer Science and Mathematics at the University of Bari Aldo Moro. He is an active member of MIDAS Research Group, where his research focuses on low-rank models for Earth Observation data analysis. His interests lie in Low-rank approximation, Remote Sensing, and Machine Learning.">
-		<meta property="og:description" content="Gaetano Settembre is a Ph.D. student in Computer Science and Mathematics at the University of Bari Aldo Moro. He is an active member of MIDAS Research Group, where his research focuses on low-rank models for Earth Observation data analysis. His interests lie in Low-rank approximation, Remote Sensing, and Machine Learning.">
-		<link rel="canonical" href="https://gaetanosettembre.github.io/">
-		<meta property="og:url" content="https://gaetanosettembre.github.io">
-		<meta property="og:site_name" content="Gaetano Settembre">
-		<meta property="og:image" content="https://gaetanosettembre.github.io/assets/img/GaetanoSettembre.webp">
-		<meta property="og:type" content="website">
-
-
-		
-		<!-- Title + Icon -->
-		<title>Gaetano Settembre's website</title>
-		<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
-
-		<!-- Improve SEO -->
-		<meta name="robots" content="index,follow" />
-
-		<!-- Styles -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
-		<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-		<link rel="stylesheet" href="assets/css/main.css">
-
-	</head>
-
-
-	<body>
-
-		<!-- Bottom rounded button -->
-		<div class="options-button" id="options-toggler"><i class="fa-light fa-arrows-repeat"></i></div>
-		<div class="options-button" id="theme"><i class="fa-duotone fa-lightbulb"></i></div>
-		<div class="options-button" id="lan"><img class="lang-flag" src="/assets/img/en_flag.webp" alt="Flag indicating the english language is selected"></div>
-
-
-		<!-- Navbar  -->
-		<nav id="top-nav" class="navbar navbar-expand-md navbar-light bg-light flex-md-nowrap flex-wrap">
-			<div class="container justify-content-center">
-
-				<a class="navbar-brand" href="#">Gaetano Settembre</a>
-
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="collapsingNavbar3">
-					<ul class="navbar-nav mx-auto language" id="navbarList">
-						<li class="nav-item">
-							<a class="nav-link active" id="aboutme" href="#" 
-								data-it="Chi sono" 
-								data-en="About Me">
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="education" href="#" 
-								data-it="Educazione" 
-								data-en="Education">
-						</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="publications" href="#" 
-								data-it="Pubblicazioni" 
-								data-en="Publications">
-						</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link d-none" id="tutorials" href="#" 
-								data-it="Tutorials" 
-								data-en="Tutorials">
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="academic" href="#" 
-								data-it="Attività" 
-								data-en="Activities">
-							</a>
-						</li>
-						
-						<!-- <li class="nav-item">
-							<a class="nav-link" id="particular" href="#" 
-								data-es="Clases Particulares" 
-								data-en="Private Lessons">
-							</a>
-						</li> -->
-
-						<li class="nav-item">
-							<a class="nav-link d-none" id="conferences" href="#" 
-								data-it="Conferenze" 
-								data-en="Conferences">
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link d-none" id="experience" href="#" 
-								data-it="Esperienze" 
-								data-en="Experience">
-							</a>
-						</li>
-						<!-- TEMPLATE
-						<li class="nav-item">
-							<a class="nav-link" id="name" href="#" data-es="name-es" data-en="name-en"></a>
-						</li>
-						-->
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<div class="container" id="main-content">
-			<div class="row content">
-				
-				<!-- Gaetano Settembre profile and contact info -->
-				<div id="leftPanel" class="col-md-3 language">
-					<div class="row mb-3">
-						<div class="col">
-							<img src="assets/img/GaetanoSettembre.webp" class="rounded-circle img-thumbnail me-auto d-block img-fluid profilepicture" alt="Gaetano Settembre profile picture">
-						</div> 
-					</div>
-
-					<h3 class="mb-2">Gaetano Settembre</h3>
-
-					<div class="d-none" id="contadorVisitas"></div>
-
-					<p class="mb-4">
-						<span class="t-secondary" data-it="Dottorando in Informatica e Matematica (XXXVIII ciclo) presso l'Università degli Studi Aldo Moro, Bari" 
-						data-en="Ph.D. Student (XXXVIII cycle) in Computer Science and Mathematics at University of Bari 'Aldo Moro'"></span>
-					</p>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="fal fa-map-marker-alt" aria-hidden="true"></i>
-						</div>
-
-						<div class="col-10">
-							Room 16 - II floor<br/>
-							Dept. of Mathematics<br/>
-							Via E. Orabona, 4 - Bari -  
-							<span 
-								data-it="Italia" 
-								data-en="Italy">
-							</span>
-						</div>
-					</div>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="ai ai-cv" aria-hidden="true"></i>
-						</div>
-
-						<div class="col-10">
-							<a href="assets/documents/GaetanoSettembreCV.pdf" class="link-dark" target="_blank" data-it="CV [Aggiornato 05/2024]" data-en="CV [Updated 05/2024]"></a>
-						</div>
-					</div>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="fa-regular fa-envelope" aria-hidden="true"></i>
-						</div>
-
-						<div class="col-10">
-							<a href="mailto:gaetano.settembre@uniba.it" class="link-dark">gaetano.settembre@uniba.it</a>
-						</div>
-					</div>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="ai ai-google-scholar-square" aria-hidden="true" style="color: #4285f4;"></i>
-						</div>
-
-						<div class="col-10">
-							<a href="https://scholar.google.com/citations?user=LheWAmcAAAAJ&hl=it" class="link-dark" target="_blank">Google Scholar</a>
-						</div>
-					</div>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="ai ai-researchgate-square" aria-hidden="true" style="color: #04d4ac;"></i>
-						</div>
-
-						<div class="col-10">
-							<a href="https://www.researchgate.net/profile/Gaetano-Settembre" class="link-dark" target="_blank">ResearchGate</a>
-						</div>
-					</div>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="ai ai-orcid" aria-hidden="true" style="color:#A6CE39"></i>
-						</div>
-
-						<div class="col-10">
-							<a href="https://orcid.org/0000-0002-0592-8575" class="link-dark" target="_blank">ORCID</a>
-						</div>
-					</div>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="ai ai-scopus" aria-hidden="true" style="color: #ff8400;"></i>
-						</div>
-
-						<div class="col-10">
-							<a href="https://www.scopus.com/authid/detail.uri?authorId=58160803600" class="link-dark" target="_blank">Scopus</a>
-						</div>
-					</div>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="ai ai-clarivate" aria-hidden="true" style="color: #8400ff;"></i>
-						</div>
-
-						<div class="col-10">
-							<a href="https://www.webofscience.com/wos/author/record/HOF-3514-2023" class="link-dark" target="_blank">Web of Science</a>
-						</div>
-					</div>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="fa-brands fa-linkedin" aria-hidden="true" style="color: #0e76a8 ;"></i>
-						</div>
-
-						<div class="col-10">
-							<a href="https://www.linkedin.com/in/gaetano-settembre/" class="link-dark" target="_blank">LinkedIn</a>
-						</div>
-					</div>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="fab fa-github" aria-hidden="true"></i>
-						</div>
-
-						<div class="col-10">
-							<a href="https://github.com/gaetanosettembre" class="link-dark" target="_blank">GitHub</a>
-						</div>
-					</div>
-
-					<!--<div class="row mb-2">
-						<div class="col-6">
-							<img src="assets/img/midas_logo.png" style='height: 100%; width: 100%; object-fit: contain' alt="logo midas">
-						</div>
-
-						<div class="col-6">
-							<img src="assets/img/midas_logo.png" style='height: 100%; width: 100%; object-fit: contain' alt="logo midas">
-						</div>
-					</div>-->
-
-				</div>
-
-				<!-- About Me -->
-				<div class="col-md-8 offset-md-1 mb-5 active" id="aboutmeContent">
-					<div class="container">
-						<div class="row language">
-							
-							<h4 id="short-cv" class="mt-2" data-it="Breve CV" data-en="Short CV"></h4>
-							<p class="mt-2 justify"
-								data-it="Nato a Matera, Italia nel 1996. Nel 2019 ha conseguito la Laurea Triennale in Informatica (L-31) presso l'Università degli Studi di Bari 'Aldo Moro'. Nel 2022 ha conseguito presso la stessa università la Laurea Magistrale in Data Science (LM-91) con menzione d’onore per la carriera accamedica, discutendo una tesi su “Analisi di dati cristallografici e training di modelli predittivi supervisionati”. Nello stesso anno ottiene una borsa di studio dall'Università degli Studi di Bari e Planetek Italia S.r.l. per intraprendere un dottorato di ricerca presso entrambi i cofinanziatori, dove partecipa alle attività di ricerca e didattica da ottobre 2022. La sua ricerca è supervisionata dalla Prof.ssa Nicoletta del Buono (sup.accademico), team leader del gruppo di ricerca Mathematics In Data AnalysiS (MIDAS), ing. Cristoforo Abbattista, Dott. Nicolò Taggio (sup.industriali)." 
-								data-en="Born in Matera, Italy in 1996. In 2019, Gaetano earned his Bachelor’s Degree in Computer Science (L-31) from the University of Bari 'Aldo Moro'. In 2022, he obtained a Master’s Degree in Data Science (LM-91) from the same university with honorable mention for academic excellence, discussing a thesis on “Analysis of crystallographic data and training of supervised predictive models”. That same year, he obtained a scholarship from the University of Bari and Planetek Italia S.r.l. to undertake a doctoral research at both co-financiers, where he participates in research and teaching activities from October 2022. His research is supervised by Prof. Nicoletta del Buono (academic sup.), Ing. Cristoforo Abbattista, Dr. Nicolò Taggio (industrial sup.s).">
-							</p>
-
-							<p class="mt-2 justify">
-								In the department of Mathematics he is a member of the Mathematics In Data AnalysiS <a href="https://sites.google.com/view/midasresearchgroup/home?authuser=0" class="link-dark" target="_blank">(MIDAS)</a> research group.
-								He is currently a member of the IEEE, the IEEE Geoscience and Remote Sensing Society (GRSS), and the INdAM-GNCS (Gruppo Nazionale Calcolo
-								Scientifico) society.
-								
-							</p>
-							
-							<h4 id="researchinterestsH4" class="mt-2" 
-								data-it="Aree di ricerca" 
-								data-en="Research Interests">
-							</h4>
-
-							<p class="mt-1"
-								data-it="Approssimazioni low-rank di matrici, fattorizzazione di matrici non negative, machine learning, calcolo scientifico ed elaborazione dati nel dominio del telerilevamento.
-								La sua Borsa di Dottorato (D.M. 352/22) ha come titolo: 'Low-rank models for the analysis of Earth Observation data'."
-								
-								data-en="Low-rank matrix approximations, nonnegative matrix factorization, classic machine learning, scientific computing and data processing in remote sensing domain. 
-								His PhD Scholarship's (D.M. 352/22) is bound by title: 'Low-rank models for the analysis of Earth Observation data focusing on coastal and marine environments'.">
-							</p>
-
-							<!--
-								<h4 id="honors-and-awards" class="mt-2" data-es="Premios y Distinciones" data-en="Honors and Awards"></h4>
-
-							<ul class="mt-1">
-
-								<li class="abme-honors-bullet">
-									<strong>Programa Séneca 2022</strong>, <span data-es="Formación de Personal Investigador en Universidades y Organismos Públicos de Investigación de la Región de Murcia" data-en="research contract at the University of Murcia"></span> 
-									[<a href="https://fseneca.es/tfs/fpi/ficha/8362" class="link-dark" target="_blank">1</a>]
-									[<a href="https://fseneca.es/web/convocatoria/642" class="link-dark" target="_blank">2</a>] 
-									- <span data-es="Dic, 2022" data-en="Dec, 2022"></span>
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong>🥈 Mercedes-Benz Talent Highway</strong>, <span data-es="con un modelo analítico de mercado predictivo" data-en="with a predictive analytical market model"></span> 
-									[<a href="./assets/documents/MercedesBenz2022NicolasMeseguer.pdf" class="link-dark" target="_blank">1</a>] 
-									[<a href="./assets/documents/imgs/NicolasMeseguerMercedes-Benz.jpg" class="link-dark" target="_blank">2</a>] 
-									- Nov, 2022
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong><span data-es="Beca Universitaria" data-en="University scholarship"></span></strong> <span data-es="para el máster" data-en="for the master's degree"></span> (M.S.)
-									[<a href="./assets/documents/NicolasMeseguerScholarship.pdf" class="link-dark" target="_blank">1</a>] 
-									- Nov, 2022
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong>🥇 Telefónica Hack4Good</strong>, <span data-es="con una aplicación contra el desperdicio cero de alimentos" data-en="with an application against zero food waste"></span>
-									[<a href="./assets/documents/HackForGood2022NicolasMeseguer.pdf" class="link-dark" target="_blank">1</a>]
-									[<a href="https://www.ucam.edu/noticias/investigacion-salud-deporte-protagonistas-actividades-ucam" class="link-dark" target="_blank">2</a>]
-									[<a href="https://www.linkedin.com/posts/universidad-catolica-san-antonio-de-murcia_secyt22-investigaciaejn-salud-activity-6989572524854382592-zMr4" class="link-dark" target="_blank">3</a>] 
-									- Oct, 2022
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong><span data-es="Premio Extraordinario" data-en="Extraordinary Award"></span></strong>, <span data-es="por el mejor Expeidente Académico en Ingeniería Informática" data-en="for the Best Computer Engineering Academic Record"></span> (B.S.)
-									[<a href="./assets/documents/imgs/NicolasMeseguerAward.jpg" class="link-dark" target="_blank">1</a>] 
-									- Jun, 2022
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong><span data-es="Beca de Iniciación a la Investigación" data-en="Research Initiation Scholarship"></span></strong> <span data-es="para jóvenes investigadores prometedores" data-en="for promising young researchers"></span>
-									[<a href="./assets/documents/NicolasMeseguerResearchGrant.pdf" class="link-dark" target="_blank">1</a>] 
-									- Feb, 2021
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong><span data-es="Beca Erasmus+" data-en="Erasmus+ Scholarship"></span></strong>, <span data-es="para unas prácticas europeas" data-en="for a european internship"></span>
-									[<a href="./assets/documents/imgs/NicolasMeseguerGermany.png" class="link-dark" target="_blank">1</a>] 
-									- Mar, 2018
-								</li>
-							</ul>
-						-->
-
-							<h4 id="hobbiesH4" class="mt-2">Hobbies</h4>
-
-							<div class="container">
-								<div class="row mt-3">
-									<div class="thumbnail col-md-3">
-										<img class="rounded mx-auto d-block img-fluid" src="/assets/img/NicolasMeseguerProgramming.webp" alt="Programming and Math">
-									</div>
-									<div class="col-md-9" id="hobbie1">
-										<b 
-											data-es="Informatica e Matematica" 
-											data-en="Programming + Math">
-										</b>
-
-										<br />
-										<p class="mt-2 justify"
-											data-it="Fin da piccolo sono stato spinto da un'insaziabile curiosità per il mondo delle scienze, in particolare quello informatico. Questa passione innata è stata la forza guida durante tutto il mio percorso formativo. Crescendo, mi sono ritrovato immerso nell'intricato mondo degli algoritmi, dello sviluppo di software e della risoluzione dei problemi.
-											La programmazione è diventata il mio linguaggio preferito, permettendomi di trasformare le idee in realtà e creare soluzioni innovative.
-											Oggi, il mio fervore per l'informatica e la matematica continua ad alimentare i miei sforzi durante il periodo di dottorato."
-											
-											data-en="From an early age, I was driven by an insatiable curiosity for the world of scinces, in particular computer science. This innate passion has been the guiding force throughout my educational journey. As I grew, I found myself immersed in the intricate world of algorithms, software development, and problem-solving.
-											Programming became my language of choice, allowing me to turn ideas into reality and create innovative solutions.
-											Today, my fervor for computer science and mathematics continues to fuel my endeavors during my doctoral studies.">
-										</p>
-
-									</div>
-								</div>
-
-								<div class="row mt-5">
-									<div class="thumbnail col-md-3">
-										<img class="rounded mx-auto d-block img-fluid" src="/assets/img/travels.webp" alt="Travelling">
-									</div>
-									<div class="col-md-9" id="hobbie2">
-										<b 
-											data-it="Viaggiare" 
-											data-en="Travelling">
-										</b>
-
-										<br />
-										<p class="mt-2 justify"
-											data-en="Traveling has always been my ultimate passion, a journey that began long ago and continues to be my greatest adventure. Exploring new places, cultures, and cuisines has always been a source of inspiration for me. Whether it's wandering through historic cities or embarking on epic road trips, every journey fuels my wanderlust and broadens my horizons.
-											One of the many reasons I chose to pursue a PhD is the opportunity it provides to travel for conferences, workshops, and summer schools, further enriching my experiences and knowledge."
-											
-											data-it="Viaggiare è sempre stata la mia passione più grande, un viaggio iniziato molto tempo fa e che continua ad essere la mia più grande avventura. Esplorare nuovi luoghi, culture e cucine è sempre stata una fonte di ispirazione per me. Che si tratti di vagare per città storiche o di intraprendere epici viaggi su strada, ogni viaggio alimenta la mia voglia di viaggiare e amplia i miei orizzonti.
-											Uno dei tanti motivi per cui ho scelto di perseguire un dottorato di ricerca è l'opportunità che offre di viaggiare per conferenze, workshop e scuole estive, arricchendo ulteriormente le mie esperienze e conoscenze.">
-										</p>
-
-									</div>
-								</div>
-								
-								<div class="row mt-5">
-									<div class="thumbnail col-md-3">
-										<img class="rounded mx-auto d-block img-fluid" src="/assets/img/basketball.webp" alt="Basketball">
-									</div>
-									<div class="col-md-9" id="hobbie3">
-										<b 
-											data-it="Pallacanestro" 
-											data-en="Basketball">
-										</b>
-
-										<br />
-										<p class="mt-2 justify"
-											data-it="Il mio amore per il basket è nato durante i miei giorni di scuola elementare, quando ho preso in mano per la prima volta una palla da basket. Da allora lo sport ha rappresentato una parte significativa della mia vita.
-											Nel 2015 ho assunto un nuovo ruolo nel mondo del basket come arbitro. Nel corso degli anni ho avuto il privilegio di arbitrare a vario titolo, tra cui il campionato di Serie C maschile pugliese e il campionato nazionale di Serie B femminile. Arbitrare mi ha fornito una prospettiva unica sul gioco, approfondendo il mio apprezzamento per le sue complessità e il lavoro di squadra.
-											Il basket non è stato solo fonte di gioia, ma anche una piattaforma di crescita personale e cameratismo."
-											data-en="My love for basketball ignited during my elementary school days when I first picked up a basketball. Since then, the sport has been a significant part of my life.
-											In 2015, I took on a new role in the basketball world as a referee. Over the years, I've had the privilege of officiating in various categories, including the men's Serie C championship in Puglia and the national women's Serie B league. Officiating has provided me with a unique perspective on the game, deepening my appreciation for its intricacies and teamwork.
-											Basketball has not only been a source of joy but also a platform for personal growth and camaraderie.">
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-				<!-- Education -->
-				<div class="col-md-8 offset-md-1 mb-5" id="educationContent">
-					<div class="container">
-						<div class="row mt-2 language">
-							<h3 
-								data-it="Dottorato in Informatica e Matematica"
-								data-en="Ph.D. in Computer Science and Mathematics">
-							</h3>
-							<div class="trnsf-thin" 
-								data-it="(Università degli Studi di Bari 'Aldo Moro', 2022 - Oggi)" 
-								data-en="(University of Bari 'Aldo Moro', 2022 -  Present)">
-							</div>
-
-							<p class="mt-1 justify"
-								data-en="
-								Scholarship D.M. 352/22 in agreement with the company Planetek Italia S.r.l., for Curriculum 2 Mathematics (MAT/08), with theme bound by title: <i>Low-rank models for the analysis of Earth Observation data focusing on coastal and marine
-								environments</i>. <br>
-								The research project focuses on studying and developing low rank approximation (LRA) computational models able to integrate heterogeneous data, hyper/multispectral images, and sensor data, to better understand the
-								environmental phenomena these data represent. Existing LRA methods are tools for the representation and
-								analysis of multivariate large datasets used in various application areas. The project aims to construct variants of
-								LRA using constrained optimization algorithms based on appropriate cost functions. These will allow adding ad-
-								hoc constraints on the latent components to be extracted from Earth observation data, marine and coastal data, to
-								improve the quality of the resulting approximation model.">
-								
-							</p>
-
-							<div class="trnsf-thin">
-								<span 
-									data-it="Tesi:"
-									data-en="Dissertation:">
-								</span>
-								<span class="trnsf-italic"
-									data-it="Da denifire (tardo 2025)."
-									data-en="TBD (late~2025).">
-								</span>
-							</div>
-
-						</div>
-
-						<div class="row mt-3 language">
-							<h3 
-								data-it="Laurea Magistrale con Lode in Data Science"
-								data-en="M.Sc. degree (Hons.) in Data Science"></h3>
-							<div class="trnsf-thin"
-							data-it="(Università degli Studi di Bari 'Aldo Moro', 2019 - 2022) - 120 CFU" 
-							data-en="(University of Bari 'Aldo Moro', 2019 - 2022) - 120 CFU" >
-							</div>
-
-							<p class="mt-1 justify"
-								data-it="
-								Data Mining, Machine Learning, Matematica e Programmazione per la Data Science, Gestione di Dati strutturati e non strutturati, 
-								Trattamento di dati sensibili, modellizzazione statistica, Metodi numerici per Data Science, Gestione e analisi di Big Data,
-								Modelli decisionali e ottimizzazione, Modelli economici guidati dai dati, Sentiment Analysis, Recommender Systems.
-								</br>
-								</br>
-								Attività svolte durante il tirocinio curriculare all'Istituto di Cristallografia c/o CNR:	
-								<ul>
-									<li>Processi ETL (Extract, Transform, Load) di dati cristallografici da database open source</li>
-									<li>Analisi esplorativa di dati cristallografici e test statistici non parametrici</li>
-									<li>Formazione, valutazione e messa a punto di modelli ML (Machine Learning) per la determinazione del sistema cristallino (attività di classificazione multiclasse)</li>
-									<li>Deployment di modelli ad alte prestazioni e sviluppo della piattaforma Web denominata CrystalMELA (Crystallography MachinE LeArning)
-									</ul>
-
-								"
-
-								data-en="
-								Data Mining, Machine Learning, Mathematics and programming for Data Science, Management of structured and unstructured data, 
-								Processing of sensitive data, Statistical modeling, Numerical methods for Data Science, Management and analysis of Big Data,
-								Decision-making and optimization models, data-driven economic models, Sentiment Analysis, Recommender Systems.
-								</br>
-								</br>
-								Curricular Internship activities at Institute of Crystallography c/o CNR:	
-								<ul>
-									<li>ETL (Extract, Transform, Load) process of crystallographic data from open source databases</li>
-									<li>Exploratory analysis of crystallographic data and non-parametric statistical tests</li>
-									<li>Training, evaluation and tuning of ML (Machine Learning) models for crystal system determination (multi-class classification task)</li>
-									<li>High-performance Models Deployment and development of Web Platform called CrystalMELA (Crystallography MachinE LeArning)
-								</ul>
-
-								">
-								
-							</p>
-
-							<div class="trnsf-thin">
-								<span
-									data-it="Tesi:"
-									data-en="Thesis:">
-								</span>
-								<span class="trnsf-italic">
-									<a href="#" class="link-dark" target="_blank"
-									data-it="Analisi di dati cristallografici e training di modelli predittivi supervisionati."
-									data-en="Analysis of crystallographic data and training of supervised predictive models.">
-								</a>
-								</span>
-							</div>
-							<div class="trnsf-thin">
-								<span
-									data-it="[Link a CrystalMELA"
-									data-en="[Link to CrystalMELA">
-								</span>
-								<a href="https://www.ic.cnr.it/software/crystalmela/" class="link-dark" target="_blank" 
-									data-it="qui]"
-									data-en="here]">
-								</a>
-							</div>
-
-						</div>
-
-						<!--<div class="row mt-3 language">
-							<h2 
-								data-es="Alumno Interno, Machine Learning y Deep Learning"
-								data-en="Intern Student, Machine Learning and Deep Learning">
-							</h2>
-							<div class="trnsf-thin" 
-								data-es="(Univerisdad Católica de Murcia, 2019-2020) - 12 ECTS" 
-								data-en="(Catholic University of Murcia, 2019-2020) - 12 ECTS">
-							</div>
-
-							<p class="mt-1 justify" 
-								data-es="
-								Introducción a Machine Learning (ML) y a las nociones que sustentan el cálculo de diferentes modelos de Deep Neural Networks (DNNs), como MLPs, CNNs o RNNs.
-								Durante mi estancia de prácticas, desarrollé una red neuronal completamente conectada (FC) y una convolucional (CNN) en C, mejorando la eficiencia de la caché (memoria dinámica, punteros, registros de memoria) y las operaciones matriciales para acelerar el cálculo. 
-								Esta aplicación se distribuye abiertamente a la comunidad científica; es totalmente modular y fácil de usar.
-								"
-
-								data-en="
-								Introduction to Machine Learning (ML) and the notions underpinning the computation of different Deep Neural Networks (DNNs) models, such as MLPs, CNNs, or RNNs.
-								During my time as an intern student, I developed a fully connected (FC) and a convolutional neural network (CNN) in C, improving cache efficency (dynamic memory, pointers, memory registers) and matrix operations to speed up the calculation. 
-								This application is openly distributed to the scientific commmunity; it is totally modular and user-friendly.
-								">
-							</p>
-
-							<div class="trnsf-thin">
-								<span
-									data-es="[encuentra la aplicación"
-									data-en="[find the application">
-								</span>
-								<a href="https://github.com/NicolasMeseguer/DNN" class="link-dark" target="_blank" 
-									data-es="aquí]"
-									data-en="here]">
-								</a>
-							</div>
-
-						</div>-->
-
-						<div class="row mt-3 language">
-							<h3 
-								data-it="Laurea Triennale in Informatica"
-								data-en="B.Sc. in Computer Science">
-							</h3>
-							<div class="trnsf-thin" 
-								data-it="(Università degli Studi di Bari 'Aldo Moro', 2015 - 2019) - 180 CFU" 
-								data-en="(University of Bari 'Aldo Moro', 2015 - 2019) - 180 CFU" >
-							</div>
-
-							<p class="mt-1 justify"
-								data-it="Problem solving e basi dello sviluppo software, Matematica discreta, Architettura degli elaboratori, Sistemi operativi, Inglese per l'informatica,
-								Laboratorio di programmazione; Algoritmi e strutture dati, Basi di dati, Fondamenti di statistica, Ingegneria del software, Metodi avanzati di programmazione,
-								Analisi matematica, Calcolo numerico; Reti di calcolatori, Ingegneria della conoscenza e sistemi esperti, Interazione uomo macchina, Information Retrieval e sistemi di raccomandazione.
-								</br>
-								</br>
-								Attività svolte dyrante il tirocinio curriculare presso SER&Practices (SER&P):
-								<ul>
-								<li>Sviluppo di 'Serious games' seguendo l'approccio RedTeam vs. Blue Team per migliorare le competenze del team SOC (Security Operation Center) e CSRIT (Computer Security Incident Response Team)</li>
-								<li>Studio di scenari di attacco malevolo su Server Linux e Applicazioni Web con l'intento di estrarre dati sensibili utilizzando il framework Cyber Kill Chain</li>
-								<li>Test di penetrazione e valutazione delle vulnerabilità</li>
-								<li>Raccolta dati, analisi dei dati (registri, avvisi, ecc.) e reporting utilizzando il SIEM IBM Security QRadar</li>
-								</ul>
-								"
-
-								data-en="
-								Problem solving and software development, Discrete mathematics, Computer architecture, Operating systems, English for IT,
-								Programming laboratory; Algorithms and data structures, Databases, Statistics, Software engineering, Advanced programming methods,
-								Mathematical analysis, Numerical calculation; Computer networks, Knowledge engineering, Usability and UX, Information Retrieval.
-								</br>
-								</br>
-								Curricular Internship activities at SER&Practices (SER&P):	
-								<ul>
-									<li>Development of 'Serious games' following the RedTeam vs. Blue Team approach to improve the skills of the SOC (Security Operation Center) and CSRIT (Computer Security Incident Response Team) team</li>
-									<li>Study of malicious attack scenarios on Linux Servers and Web Applications with the intention of extracting sensitive data using the Cyber Kill Chain framework</li>
-									<li>Penetration Test and Vulnerability Assessment</li>
-									<li>Data collection, data analysis (logs, alerts, etc.) and reporting using the IBM Security QRadar SIEM</li>
-								</ul>								
-								">								
-							</p>
-
-							<div class="trnsf-thin">
-								<span
-									data-it="Tesi:"
-									data-en="Thesis:">
-								</span>
-								<span class="trnsf-italic">
-									<a href="#" class="link-dark" target="_blank"
-									data-it="Red Team vs Blue Team: Data Exfiltration in Government"
-									data-en="Red Team vs Blue Team: Data Exfiltration in Government">
-								</a>
-								</span>
-							</div>
-
-						</div>
-
-						<!--<div class="row mt-3 language">
-							<h2 
-								data-es="Grado Superior en Desarrollo de Aplicaciones Web"
-								data-en="HNC Web App Developer">
-							</h2>
-							<div class="trnsf-thin">(IES José Planes, 2016-2018) 8,8 - 120 ECTS </div>
-
-							<p class="mt-1 justify"
-
-								data-es="Desarrollar, implementar y mantener aplicaciones web (enfoque MVC), 
-								independientemente del modelo utilizado y utilizando tecnologías específicas (Laravel, Symfony, Java, React.js o Node.js), 
-								garantizando el acceso seguro a los datos (MySQL, XML o Ajax) y cumpliendo los criterios de accesibilidad, 
-								usabilidad y calidad (Doctrine2, Ruby, SASS, Compass) exigidos por los estándares establecidos."
-
-								data-en="Developing, implementing and maintaining web applications (MVC approach), 
-								irrespective of the model used and using specific technologies (Laravel, Symfony, Java, React.js or Node.js), 
-								guaranteeing secure access to data (MySQL, XML or Ajax) and complying with the accessibility, 
-								usability and quality criteria (Doctrine2, Ruby, SASS, Compass) required by established standards.">
-							</p>
-
-						</div>-->
-					</div>
-				</div>
-
-
-				<!-- Publications -->
-				<div class="col-md-8 offset-md-1 mb-5" id="publicationsContent">
-					<div class="container">
-
-						<div class="row mt-3">
-							<h2 class="pub-year-h2">2024</h2>
-
-							<div class="pub-block">
-								<div class="arial h5">A Land Cover Change Framework Analyzing Wildfire-affected Areas in Bitemporal PRISMA Hyperspectral Images</div>
-								<div class="pub-authors mt-1"><span class="pub-author">G. Settembre</span>, N. Taggio, N. Del Buono, F. Esposito, P. Di Lauro, and A. Aiello</div>
-								<div class="pub-congress">Mathematics and Computers in Simulation (REVISION COMPLETED)</div>
-								<div class="mt-1">
-									<span> <i class="ai ai-doi"></i> <a href="#" target="_blank" class="link-dark ">DOI (TBD)</a> </span>
-									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX (TBD)</a> </span>
-								</div>
-								<div class="d-none">
-									@Article{Settembre2024,
-									  }
-								</div>
-							</div>
-
-							<div class="row mt-3"></div>
-
-							<div class="pub-block">
-								<div class="arial h5">Deep NMF and Autoencoder: A Comparative Analysis for Hyperspectral Unmixing Using Prisma Real Images</div>
-								<div class="pub-authors mt-1"><span class="pub-author">G. Settembre</span>, N. Del Buono, F. Esposito, and N. Taggio</div>
-								<div class="pub-congress">IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024, pp. 3708-3712</div>
-								<div class="mt-1">
-									<span> <i class="ai ai-doi"></i> <a href="http://dx.doi.org/10.1109/IGARSS53475.2024.10642930" target="_blank" class="link-dark ">DOI</a> </span>
-									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
-								</div>
-								<div class="d-none">
-									@INPROCEEDINGS{Settembre_IGARSS,
-										author={Settembre, Gaetano and Del Buono, Nicoletta and Esposito, Flavia and Taggio, Nicolò},
-										booktitle={IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium}, 
-										title={Deep NMF and Autoencoder: A Comparative Analysis for Hyperspectral Unmixing Using Prisma Real Images}, 
-										year={2024},
-										volume={},
-										number={},
-										pages={3708-3712},
-										keywords={Analytical models;Satellites;Image processing;Imaging;Geoscience and remote sensing;Data models;Task analysis;Hyperspectral unmixing;deep nonnegative matrix factorization;autoencoder;PRISMA satellite data},
-										doi={10.1109/IGARSS53475.2024.10642930}}
-									  
-								</div>
-							</div>
-
-							<div class="row mt-3"></div>
-
-							<div class="pub-block">
-								<div class="arial h5">Enhanced MRI Brain Tumor Detection and Classification via Topological Data Analysis and Low-Rank Tensor Decomposition</div>
-								<div class="pub-authors mt-1">S.G. De Benedictis, G. Gargano, <span class="pub-author">G. Settembre</span></div>
-								<div class="pub-congress">Journal of Computational Mathematics and Data Science, vol 13 (2024), pp.100103</div>
-								<div class="mt-1">
-									<span> <i class="ai ai-open-access"></i> <a href="https://doi.org/10.1016/j.jcmds.2024.100103" target="_blank" class="link-dark ">DOI</a> </span>
-									<span class="pub-force-margin-left"> <i class="far fa-file-pdf"></i> <a href="https://pdf.sciencedirectassets.com/779975/1-s2.0-S2772415824X00048/1-s2.0-S2772415824000142/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQD9MSKE0jXuQYqWk65FQRjW2aX55MzwBLGsU0%2Bz7vLbNgIhAKX5AwrssIoWZpT191G2ctDtEijFQVCfuqFhNlcfPCK5KrIFCEEQBRoMMDU5MDAzNTQ2ODY1IgyIuefzqVTOaX3sMf8qjwXlar2Gl9qZFT%2FEYavOQPDaxJgpbYoiGI%2Bj%2F2%2FuQlFzKDaWPBTvQCY%2BWfsDxikSh%2B5amgj%2BSy6NcwrHKbEcMLDC0yOmGNE%2BiaICH6me%2FBosC8zils4YXc9%2FN2PeTyXM2eQfWxtpSLCF93nHsdfWNJR20wRWiIK5mpCPHEypfrbH91o9NIft6L28MKNSf8GAPxL4FKBw0arRKuAChNsvoGbIKKnbTZrxkeN03flLKSCCO07P7XX5rW%2FRpD4RgAUSSAQn0qKguKJu2%2BVyiDas6enxH7qwvxH%2F4lQGkTeaLsS8Akvo7z4zgA6O%2FwIVp5nLMtmISbq1K6EtyDREwxS2fckpmeiZaIvpthvXfgMaL5md%2FB9uD4As5N%2BjatXAGLvl%2BjWu9VrM%2BonE9SKAntyaoiyMOOwhVcTpbc3AMSumFev9IRI%2FUY19CYxMaea%2BSpRhVq1hwU%2FLyr3TBpGmrpUApiBFf5mLeafSITwokEVwjrm9HMbqNblDe%2F%2FpGWcp3YqtGZ7VsCUmmg23H%2B1CREroJi2G7%2B%2BkjmEmp2gj%2Bwb1%2FziufeIQLshWAQcxcSTIkGl%2Fln%2Fox%2FS6KL9FDEEhrr9qU4rdXaCRIYU1cHz8u1SW2bzEifWah6eDXAMWgZ%2F%2F0OiQVBGTeipxhIxB%2BTAxn4CgLBK3Jh%2F7nXrGNOmFT9oBNYKuDDuK9YjyINpQRXBjiUviw8aEk4Y9daYzRE6dCrak42yQKlwmRd7X3NAsyTP7rjdXpGaMzFJs8l6f7WEFkORMFqppvuBeXURAfINcE2ujM0DW6rUuR0i7tw4UtDWNWNuLxo%2FzV6J9FpOK5j7OPZJ1n0HtAYb5NCaq5ni0XpDt3O8bdEsYzUEvyspB2etzZaHCMJzPk7gGOrABDxQBAcmfcTczp%2FtEBMoCXCaJnBjcgMPl7uY5iuH%2Bfl9ndgN0UXIXjFxHK1JLjpRDxRNAkmZffmAH7lVF%2Flo2JB6I2ch%2BHa0LuoGn8oaO62I2A1gO0gHp4SdVZpfORJ%2BO4y%2BN2lxXmRJmJBDZsGMbC1U9pgm1fvcHno7Fl%2FdOS8vebZQzzm7urp%2Bb5qAkt%2BsktNmuEAtsA9pB%2BQOOR%2BzBI%2Fv8apAWc1zMjXxCsMP4iWQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241008T091714Z&X-Amz-SignedHeaders=host&X-Amz-Expires=299&X-Amz-Credential=ASIAQ3PHCVTY4E3UWF6C%2F20241008%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=40ed9a589405778ec5c5c846510b0170f6184a2e6f1dfd936460439d73e94445&hash=e651b6168079c44aa9266812f0bc08570b14790885f37e761eecf62372d5735c&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2772415824000142&tid=spdf-3a86c726-13ba-4d66-9a88-de23e07b0f14&sid=612444b9345f394dfa58c4f40bd60db1bbdagxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1d1459050450505f525851&rr=8cf509666b65eeb0&cc=gr" target="_blank" class="link-dark ">PDF</a> </span>
-									<span class="pub-force-margin-left"> <i class="far fa-link"></i> <a href="https://github.com/gaetanosettembre/BrainTumor_clf_TDA" target="_blank" class="link-dark">Link GitHub</a> </span>
-									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
-								</div>
-								<div class="d-none">
-									@ARTICLE{braintumor_tda,
-										title = {Enhanced MRI brain tumor detection and classification via topological data analysis and low-rank tensor decomposition},
-										volume = {13},
-										ISSN = {2772-4158},
-										url = {http://dx.doi.org/10.1016/j.jcmds.2024.100103},
-										DOI = {10.1016/j.jcmds.2024.100103},
-										journal = {Journal of Computational Mathematics and Data Science},
-										publisher = {Elsevier BV},
-										author = {De Benedictis,  Serena Grazia and Gargano,  Grazia and Settembre,  Gaetano},
-										year = {2024},
-										month = dec,
-										pages = {100103},
-										keywords = {Brain tumor classification, Magnetic resonance imaging, Topological data analysis, Machine learning, Tucker decomposition}
-									  }
-									  
-								</div>
-							</div>
-
-							<div class="row mt-3"></div>
-
-							<div class="pub-block">
-								<div class="arial h5">Low-rank hierarchical clustering of PRISMA hyperspectral images to identify burned areas</div>
-								<div class="pub-authors mt-1"><span class="pub-author">G. Settembre</span>, N. Taggio, N. Del Buono, A. Aiello, and F. Esposito</div>
-								<div class="pub-congress">International Workshops of ECML PKDD 2023, Turin, Italy, September 18–22, 2023, Revised Selected Papers, Part III in Communications in Computer and Information Science, vol 2135 (IN PRESS).</div>
-								<div class="mt-1">
-									<span> <i class="ai ai-doi"></i> <a href="#" target="_blank" class="link-dark ">DOI (TBD)</a> </span>
-									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX (TBD)</a> </span>
-								</div>
-								<div class="d-none">
-									@incollection{Settembre2023,
-									  }
-								</div>
-							</div>
-						</div>
-
-						<div class="row mt-3">
-							<h2 class="pub-year-h2">2023</h2>
-
-							<div class="pub-block">
-								<div class="arial h5">CrystalMELA: a new crystallographic machine learning platform for crystal system determination</div>
-								<div class="pub-authors mt-1">N. Corriero, R. Rizzi, <span class="pub-author">G. Settembre</span>, N. Del Buono, and D. Diacono</div>
-								<div class="pub-congress">Journal of Applied Crystallography (IUCr), vol. 56, no. 2, Jan. 2023</div>
-								<div class="mt-1">
-									<span> <i class="ai ai-open-access"></i> <a href="https://doi.org/10.1107/S1600576723000596" target="_blank" class="link-dark ">DOI</a> </span>
-									<span class="pub-force-margin-left"> <i class="far fa-file-pdf"></i> <a href="https://journals.iucr.org/j/issues/2023/02/00/te5105/te5105.pdf" target="_blank" class="link-dark ">PDF</a> </span>
-									<span class="pub-force-margin-left"> <i class="far fa-link"></i> <a href="https://www.ic.cnr.it/software/crystalmela/" target="_blank" class="link-dark">Link</a> </span>
-									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
-								</div>
-								<div class="d-none">
-									@article{Corriero2023,
-										doi = {10.1107/s1600576723000596},
-										url = {https://doi.org/10.1107/s1600576723000596},
-										year = {2023},
-										month = feb,
-										publisher = {International Union of Crystallography ({IUCr})},
-										volume = {56},
-										number = {2},
-										pages = {409--419},
-										author = {Nicola Corriero and Rosanna Rizzi and Gaetano Settembre and Nicoletta Del Buono and Domenico Diacono},
-										title = {$\less$i$\greater${CrystalMELA}$\less$/i$\greater$: a new crystallographic machine learning platform for crystal system determination},
-										journal = {Journal of Applied Crystallography}
-									  }
-								</div>
-							</div>
-							
-							<div class="row mt-3"></div>
-
-							<div class="pub-block">
-								<div class="arial h5">Machine Learning approaches for predicting Crystal Systems: a brief review and a case study</div>
-								<div class="pub-authors mt-1"><span class="pub-author">G. Settembre</span>, N. Corriero, N. Del Buono, F. Esposito, and R. Rizzi</div>
-								<div class="pub-congress">Conference proceedings Machine Learning, Optimization, and Data Science. LOD 2022. Lecture Notes in Computer Science, vol 13810, pp. 93-107. Springer, Cham</div>
-								<div class="mt-1">
-									<span> <i class="ai ai-doi"></i> <a href="https://doi.org/10.1007/978-3-031-25599-1_8" target="_blank" class="link-dark ">DOI</a> </span>
-									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
-								</div>
-								<div class="d-none">
-									@incollection{Settembre2023,
-										doi = {10.1007/978-3-031-25599-1_8},
-										url = {https://doi.org/10.1007/978-3-031-25599-1_8},
-										year = {2023},
-										publisher = {Springer Nature Switzerland},
-										pages = {93--107},
-										author = {Gaetano Settembre and Nicola Corriero and Nicoletta Del Buono and Flavia Esposito and Rosanna Rizzi},
-										title = {Machine Learning Approaches for~Predicting Crystal Systems: A Brief Review and~a~Case Study},
-										booktitle = {Machine Learning,  Optimization,  and Data Science}
-									  }
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<!-- Blog -->
-				<div class="col-md-8 offset-md-1 mb-5" id="tutorialsContent">
-					<div class="container">
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://nicolasmeseguer.notion.site/StreaMemory-Benchmark-35739f7f69404274a1d287f6827ef203</div>
-							<div class="h5">⛲ StreaMemory Benchmark</div>
-							<div class="blog-info mt-2">
-								<div class="d-inline">
-									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 25 min
-								</div>
-
-								<div class="float-end d-inline">
-									<i class="fa-light fa-calendar" aria-hidden="true"></i> 11 feb. 2022
-								</div>
-							</div>
-
-							<div class="blog-short mt-2" 
-								data-es="Explicación del Stream + Memory benchmark en MGPUSim y los archivos que he tenido que modificar para lograrlo."
-								data-en="Explanation of the Stream + Memory benchmark in MGPUSim and the files I had to modify to achieve it.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">#benchmark</span> <span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span>
-							</div>
-						</div>
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://nicolasmeseguer.notion.site/Elementwise-2D-546f8fe9a8a24852a234bdc28b00cd15</div>
-							<div class="h5">🧊 Elementwise 2D Tensor</div>
-							<div class="blog-info mt-2">
-								<div class="d-inline">
-									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 10 min
-								</div>
-
-								<div class="float-end d-inline">
-									<i class="fa-light fa-calendar" aria-hidden="true"></i> 12 dec. 2022
-								</div>
-							</div>
-
-							<div class="blog-short mt-2" 
-								data-es="Explicación de element-wise para un tensor doble (2D) y un caso práctico de porqué no usar tamaños aleatorios para el tamaño de la matriz."
-								data-en="Explanation of element-wise for a double (2D) tensor and a case study of why not to use random sizes for matrix size.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span>
-							</div>
-						</div>
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://nicolasmeseguer.notion.site/Tracing-LDS-Unit-69210a9d8fe44b4a997f8391aa508621</div>
-							<div class="h5">🛤️ Tracing LDS Unit</div>
-							<div class="blog-info mt-2">
-								<div class="d-inline">
-									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 20 min
-								</div>
-
-								<div class="float-end d-inline">
-									<i class="fa-light fa-calendar" aria-hidden="true"></i> 30 nov. 2022
-								</div>
-							</div>
-
-							<div class="blog-short mt-2"
-								data-es="¿Alguna vez has querido adjuntar un tracer a un componente específico dentro de MGPUSim? Incluso si ese 'componente' no es un componente como tal, sino un subcomponente de un componente. Este tutorial te será útil."
-								data-en="Have you ever wanted to attach a tracer to a specific component inside MGPUSim? Even if that 'component' is not a component itself but a subcomponent of a component. This tutorial will be helpful.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span> <span class="tag t-sky">#tracing</span>
-							</div>
-						</div>
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://nicolasmeseguer.notion.site/DAISEN-Tutorial-9d041575a9b0489099086152fd9a927e</div>
-							<div class="h5">📊 DAISEN Tutorial</div>
-							<div class="blog-info mt-2">
-								<div class="d-inline">
-									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 15 min
-								</div>
-
-								<div class="float-end d-inline">
-									<i class="fa-light fa-calendar" aria-hidden="true"></i> 15 nov. 2022
-								</div>
-							</div>
-
-							<div class="blog-short mt-2" 
-								data-es="Breve tutorial sobre la herramienta de visualización DAISEN utilizada para MGPUSim. Este tutorial viene acompañado con un kernel de referencia."
-								data-en="Brief tutorial about the visualization tool DAISEN used for MGPUSim. This tutorial comes along with a kernel example.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span> <span class="tag t-sky">#daisen</span>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-
-				<!-- Teaching -->
-				<div class="col-md-8 offset-md-1 mb-5" id="academicContent">
-					<div class="container ">
-						<div class="row mt-2">
-							<!--<h2 class="academic-year-h2">2023</h2>-->
-
-							<div class="academic-block mt-4">
-								<div class="arial-console h5 academic-name language"> <span data-en="Talks" data-it="Talk"></span></div>
-								<ul>
-									<li>"<i>Low-rank models for the analysis of Earth Observation (updates)</i>" <br> PhD Days 2024, 11 Jul 2024, Bari </li>
-									<br>
-									<li>"<i>Unlocking insights from the sky: Low-rank methods in Remote Sensing</i>" <br> XMaths Workshop 2023, 21 Dec 2023, Bari </li>
-									<br>
-									<li>"<i>Low-rank Hierarchical Clustering of PRISMA hyperspectral images to identify burned areas</i>" <br> MACLEAN: Workshop on Machine Learning for Earth Observation @ECML/PKDD, 18 Sep 2023, Turin</li>
-									<br>
-									<li>"<i>Low-rank models for the analysis of Earth Observation</i>" <br> PhD Days 2023, 11 Jul 2023, Bari </li>
-									<br>
-									<li>"<i>A low-rank based approximation framework for real world data integration</i>" <br> Numerical Analysis and Scientific Computation with Applications (NASCA), 06 Jul 2023, Athens</li>
-								</ul>	
-							</div>
-
-							<div class="academic-block mt-4">
-								<div class="arial-console h5 academic-name language"> <span data-en="Tutoring and/or teaching" data-it="Assistenza e/o insegnamento"></span></div>
-								<ul>
-									<li>“Metodi Decisionali e Ottimizzazione”, Degree Course: LM-91 Data Science, exam assistant</li>
-									<li>“Metodi numerici per la Data Science”. Degree Course: L-35 in Mathematics, exam assistant</li>
-									<li>“Metodi di Ottimizzazione per la Data Science”. Degree Course: LM-40 Mathematics, exam assistant</li>
-								</ul>	
-							</div>
-
-							<div class="academic-block mt-4">
-								<div class="arial-console h5 academic-name language"> <span data-en="Projects" data-it="Progetti"></span></div>
-								<ul>
-									<li>Marine Biomass Innovation (MBI) project <a href="https://mbiproject.ca/project-description/" class="link-dark" target="_blank">[link]</a></li>
-									<li>Low-rank models and Optimization algorithms for Data Analysis (GNCS funded) <a href="" class="link-dark" target="_blank">[link]</a></li>
-								</ul>	
-							</div>
-
-							<div class="academic-block mt-4">
-								<div class="arial h5 academic-name language"> <span data-en="Organizing Committee" data-it="Comitato Organizzatore"></span></div>
-								<ul>
-									<li>3rd Workshop of UMI Group Mathematics for AI and Machine Learning, Jan 29-31, 2025 <a href="https://umi-math4aiml2025.uniba.it" class="link-dark" target="_blank">[link]</a></li>
-									<li>3rd PRIMO Workshop 2023 - Bari (Italy), Sep 20-22, 2023 <a href="https://primo2023.uniba.it" class="link-dark" target="_blank">[link]</a></li>
-									<li>10th XMaths Workshop 2022 - Bari (Italy), Dec 21-22, 2022 <a href="https://xmathsworkshop.weebly.com" class="link-dark" target="_blank">[link]</a></li>
-								</ul>
-							</div>
-
-							<div class="academic-block mt-4">
-								<div class="arial h5 academic-name language"> <span data-en="Technical Program Committee Membership" data-it="Comitato Tecnico"></span></div>
-								<ul>
-									<li>Invited Session on Leveraging Digital Twins in Healthcare @KES - Seville (Spain), Sep 11-13, 2024 <a href="https://sites.google.com/view/ldth2024/home?authuser=0" class="link-dark" target="_blank">[link]</a></li>
-								</ul>
-							</div>
-
-							<div class="academic-block mt-4">
-								<div class="arial-console h5 academic-name language"> <span data-en="Journal/Conference Reviewing:" data-it="Revisioni per Riviste/Conferenze:"></span></div>
-								<ul>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Gaetano Settembre | University of Bari</title>
+  <meta content="Gaetano Settembre's website, biography, education, previous experience and published papers." name="description">
+  <meta content="gaetano settembre, Gaetano Settembre, Gaetano Settembre uniba, gaetano settembre uniba, gaetano settembre midas, gaetano settembre papers, gaetano settembre planetek, gaetano settembre portfolio" name="keywords">
+
+  <meta property="og:title" content="Gaetano Settembre">
+  <meta name="author" content="Gaetano Settembre">
+  <meta property="og:locale" content="en">
+  <meta name="description" content="Gaetano Settembre is a Ph.D. student in Computer Science and Mathematics at the University of Bari Aldo Moro. He is an active member of MIDAS Research Group, where his research focuses on low-rank models for Earth Observation data analysis. His interests lie in Low-rank approximation, Remote Sensing, and Machine Learning.">
+  <meta property="og:description" content="Gaetano Settembre is a Ph.D. student in Computer Science and Mathematics at the University of Bari Aldo Moro. He is an active member of MIDAS Research Group, where his research focuses on low-rank models for Earth Observation data analysis. His interests lie in Low-rank approximation, Remote Sensing, and Machine Learning.">
+  <link rel="canonical" href="https://gaetanosettembre.github.io/">
+  <meta property="og:url" content="https://gaetanosettembre.github.io">
+  <meta property="og:site_name" content="Gaetano Settembre">
+  <meta property="og:image" content="https://gaetanosettembre.github.io/assets/img/img_profile.jpg">
+  <meta property="og:type" content="website">
+
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon_152x152.png">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/img_profile.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Gaetano Settembre</h1><br>
+
+    </a>
+    <a href="mailto:gaetano.settembre@uniba.it"
+      class="logo d-flex align-items-center justify-content-center">gaetano.settembre@uniba.it</a>
+    <p class="logo d-flex align-items-center justify-content-center">University of Bari Aldo Moro</p>
+    <div class="social-links text-center">
+      <a href="https://scholar.google.com/citations?user=LheWAmcAAAAJ&hl=it" target="_blank" class="icon icon-xs"><i
+          class="ai ai-google-scholar"></i></a>
+      <a href="https://www.researchgate.net/profile/Gaetano-Settembre" target="_blank" class="researchgate"><i
+          class="ai ai-researchgate"></i></a>
+      <a href="https://orcid.org/0000-0002-0592-8575" target="_blank" class="orcid"><i class="ai ai-orcid"></i></a>
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=58160803600" target="_blank" class="scopus"><i
+          class="ai ai-scopus"></i></a>
+      <a href="https://www.webofscience.com/wos/author/record/HOF-3514-2023" target="_blank" class="clarivate"><i
+          class="ai ai-clarivate"></i></a>
+      <a href="https://www.linkedin.com/in/gaetano-settembre/" target="_blank" class="linkedin"><i
+            class="bi bi-linkedin"></i></a>    
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i>About me</a></li>
+        <li><a href="#resume"><i class="bi bi-backpack2 navicon"></i> Education</a></li>
+        <li><a href="#portfolio"><i class="bi bi-vector-pen navicon"></i> Publications</a></li>
+        <li><a href="#services"><i class="bi bi-activity navicon"></i> Activities</a></li>
+        <!--<li class="dropdown"><a href="#"><i class="bi bi-book navicon"></i> <span>Dropdown</span> <i
+              class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="#">Dropdown 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Deep Dropdown 1</a></li>
+                <li><a href="#">Deep Dropdown 2</a></li>
+                <li><a href="#">Deep Dropdown 3</a></li>
+                <li><a href="#">Deep Dropdown 4</a></li>
+                <li><a href="#">Deep Dropdown 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Dropdown 2</a></li>
+            <li><a href="#">Dropdown 3</a></li>
+            <li><a href="#">Dropdown 4</a></li>
+          </ul>
+        </li>-->
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/bg.png" alt="" data-aos="fade-in" class="" style="opacity: 0.7;">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Gaetano Settembre</h2>
+        <p>I'm <span class="typed"
+            data-typed-items="Ph.D. Student in Computer Science and Mathematics, Data Scientist, Computer Scientist">Ph.D.
+            Student</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
+            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        <br>
+        <br>
+        <p>Department of Mathematics<br>
+          UNIVERSITY OF BARI ALDO MORO</p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About me</h2>
+        <p style="text-align: justify;">
+          Born in Matera, Italy in 1996. In 2019, Gaetano earned his Bachelor’s Degree in Computer Science (L-31) from
+          the <a href="https://www.uniba.it" target="_blank">University of Bari Aldo Moro</a>.
+          In 2022, he obtained a Master’s Degree in Data Science (LM-91) from the same university with honorable mention
+          for academic excellence, discussing a thesis on “Analysis of crystallographic data and training of supervised
+          predictive models”.
+          That same year, he obtained a scholarship from the University of Bari and <a href="https://www.planetek.it"
+            target="_blank">Planetek Italia S.r.l.</a> to undertake a doctoral research at both co-financiers, where he
+          participates in research and teaching activities from October 2022.
+          His research is supervised by <a href="https://www.dm.uniba.it/it/members/delbuono/nicoletta-del-buono"
+            target="_blank">Prof. Nicoletta del Buono</a> (academic sup.), Ing. Cristoforo Abbattista, Dr. Nicolò Taggio
+          (industrial sup.s).</p>
+        <br>
+        <p style="text-align: justify;">
+          In the department of Mathematics he is a member of the <a
+            href="https://sites.google.com/view/midasresearchgroup/home?authuser=0" target="_blank">Mathematics In Data
+            AnalysiS (MIDAS) Research Group</a>. He is currently a member of the IEEE, the IEEE Geoscience and Remote
+          Sensing Society (GRSS), and the INdAM-GNCS (Gruppo Nazionale Calcolo Scientifico) society.
+        </p>
+        <br>
+        <div class="col-md-12 text-left">
+          <a href="assets/cv/GaetanoSettembreCV.pdf" target="_blank"><button>Curriculum Vitae</button></a>
+        </div>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+
+          <div class="col-lg-8 content">
+            <h2>Research Interests</h2>
+            <br>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-xs-12">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Math:</strong> <span>linear algebra, numerical
+                      analysis, constrained optimization</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Applied math:</strong> <span>low-rank approximation,
+                      matrix factorization, tensor
+                      factorization</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Machine Learning:</strong> <span>unsupervised and
+                      supervised learning, deep learning</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Applications:</strong> <span>remote sensing,
+                      bioinformatics, scientific computing and data processing</span></li>
+                </ul>
+              </div>
+            </div>
+            <!--<p class="py-3">
+              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+            </p>-->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section> /Stats Section -->
+
+    <!-- Skills Section
+    <section id="skills" class="skills section light-background">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section> /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Education</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+            <!--<h3 class="resume-title">Sumary</h3>
+
+             <div class="resume-item pb-0">
+              <h4>Brandon Johnson</h4>
+              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <ul>
+                <li>Portland par 127,Orlando, FL</li>
+                <li>(123) 456-7891</li>
+                <li>alice.barkley@example.com</li>
+              </ul>
+            </div> Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Ph.D. in Computer Science and Mathematics</h4>
+              <h5>2022 - Present</h5>
+              <p><em>University of Bari Aldo Moro, IT</em></p>
+              <p style="text-align: justify;">Scholarship D.M. 352/22 in agreement with the company Planetek Italia
+                S.r.l., for Curriculum 2 Mathematics (MAT/08), with theme bound by title: Low-rank models for the
+                analysis of Earth Observation data focusing on coastal and marine environments.
+                The research project focuses on studying and developing low rank approximation (LRA) computational
+                models able to integrate heterogeneous data,
+                hyper/multispectral images, and sensor data, to better understand the environmental phenomena these data
+                represent.
+                Existing LRA methods are tools for the representation and analysis of multivariate large datasets used
+                in various application areas.
+                The project aims to construct variants of LRA using constrained optimization algorithms based on
+                appropriate cost functions.
+                These will allow adding ad- hoc constraints on the latent components to be extracted from Earth
+                observation data, marine and coastal data, to improve the quality of the resulting approximation model.
+              </p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>M.Sc. degree (Hons.) in Data Science</h4>
+              <h5>2019 - 2022</h5>
+              <p><em>University of Bari Aldo Moro, IT</em></p>
+              <p style="text-align: justify;"> Data Mining, Machine Learning, Mathematics and programming for Data
+                Science, Management of structured and unstructured data,
+                Processing of sensitive data, Statistical modeling, Numerical methods for Data Science, Management and
+                analysis of Big Data,
+                Decision-making and optimization models, data-driven economic models, Sentiment Analysis, Recommender
+                Systems.<br><br>
+                Curricular Internship activities at <a href="https://www.ic.cnr.it/en/" target="_blank">Institute of
+                  Crystallography c/o CNR</a>:
+              <ul>
+                <li>ETL (Extract, Transform, Load) process of crystallographic data from open source databases</li>
+                <li>Exploratory analysis of crystallographic data and non-parametric statistical tests</li>
+                <li>Training, evaluation and tuning of Machine Learning models for crystal system determination
+                  (multi-class classification task)</li>
+                <li>High-performance Models Deployment and development of Web Platform called CrystalMELA
+                  (Crystallography MachinE LeArning)</li>
+              </ul>
+              Thesis: Analysis of crystallographic data and training of supervised predictive models.
+              <a href="https://www.ic.cnr.it/software/crystalmela/" target="_blank">[Link to CrystalMELA here]</a>
+              </p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>B.Sc. in Computer Science</h4>
+              <h5>2015 - 2019</h5>
+              <p><em>University of Bari Aldo Moro, IT</em></p>
+              <p style="text-align: justify;"> Problem solving and software development, Discrete mathematics, Computer
+                architecture, Operating systems, English for IT, Programming laboratory; Algorithms and data structures,
+                Databases, Statistics, Software engineering, Advanced programming methods, Mathematical analysis,
+                Numerical calculation; Computer networks, Knowledge engineering, Usability and UX, Information
+                Retrieval.<br><br>
+                Curricular Internship activities at <a href="https://serandp.com/it/" target="_blank">SER&Practices
+                  (SER&P)</a>:
+              <ul>
+                <li>Development of 'Serious games' following the RedTeam vs. Blue Team approach to improve the skills of
+                  the SOC (Security Operation Center) and CSRIT (Computer Security Incident Response Team) team</li>
+                <li>Study of malicious attack scenarios on Linux Servers and Web Applications with the intention of
+                  extracting sensitive data using the Cyber Kill Chain framework</li>
+                <li>Penetration Test and Vulnerability Assessment</li>
+                <li>Data collection, data analysis (logs, alerts, etc.) and reporting using the IBM Security QRadar SIEM
+                </li>
+              </ul>
+              Thesis: Red Team vs Blue Team: Data Exfiltration in Government
+              </p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <!--<div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Senior graphic design specialist</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Experion, New York, NY </em></p>
+              <ul>
+                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              </ul>
+            </div> Edn Resume Item 
+
+            <div class="resume-item">
+              <h4>Graphic design specialist</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul>
+            </div> Edn Resume Item -->
+
+        </div>
+
+      </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Publications</h2>
+        <p>In this section, you'll find a list of my publications. I always try to provide a freely accessible version
+          of all of my papers, to ensure that everyone can read them.
+          Depending on the publisher, though, the ways I can do that may vary.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <p style="text-align: justify;">
+        <ul>
+          <li>
+            <a href=https://doi.org/10.1016/j.jcmds.2024.100103 target="_blank"><strong>Enhanced MRI brain tumor
+                detection and classification via topological data analysis and low-rank tensor
+                decomposition</a></strong><br>
+            S.G. De Benedictis, G. Gargano, <u>G. Settembre</u><br>
+            <span style="color:#555555;">Journal of Computational Mathematics and Data Science, vol. 13, p. 100103.
+            </span>
+            <span class="__dimensions_badge_embed__" data-doi="10.1016/j.jcmds.2024.100103"
+              data-style="small_rectangle"></span>
+          </li>
+          <br>
+          <li>
+            <a href="http://dx.doi.org/10.1109/IGARSS53475.2024.10642930" target="_blank">
+              <strong>Deep NMF and Autoencoder: A Comparative Analysis for Hyperspectral Unmixing Using Prisma Real
+                Images</strong></a><br>
+            <u>G. Settembre</u>, N. Del Buono, F. Esposito, N. Taggio<br>
+            <span style="color:#555555;">IGARSS 2024-2024 IEEE International Geoscience and Remote Sensing Symposium,
+              pp. 3708-3712.</span>
+            <span class="__dimensions_badge_embed__" data-doi="10.1109/IGARSS53475.2024.10642930"
+              data-style="small_rectangle"></span>
+          </li>
+          <br>
+          <li>
+            <a href="" target="_blank">
+              <strong>Low-rank hierarchical clustering of PRISMA hyperspectral images to identify burned
+                areas</strong></a>
+            <br>
+            <u>G. Settembre</u>, N. Taggio, N. Del Buono, A. Aiello, F. Esposito<br>
+            <span style="color:#555555;">International Workshops of ECML PKDD 2023, Turin, Italy, 2023, Revised Selected
+              Papers, Part III in Communications in Computer and Information Science, vol 2135 (IN PRESS)
+            </span>
+            <span class="__dimensions_badge_embed__" data-doi=""
+              data-style="small_rectangle"></span>
+          </li>
+          <br>
+          <li>
+            <a href="https://doi.org/10.1107/S1600576723000596" target="_blank">
+              <strong>CrystalMELA: a new crystallographic machine learning platform for crystal system
+                determination</strong></a>
+            <br>
+            N. Corriero, R. Rizzi, <u>G. Settembre</u>, N. Del Buono, D. Diacono<br>
+            <span style="color:#555555;">Journal of Applied Crystallography 56 (2)
+            </span>
+            <span class="__dimensions_badge_embed__" data-doi="10.1107/S1600576723000596"
+              data-style="small_rectangle"></span>
+          </li>
+          <br>
+          <li>
+            <a href="https://doi.org/10.1007/978-3-031-25599-1_8" target="_blank">
+              <strong>Machine Learning approaches for Predicting Crystal Systems: A brief Review and a case
+                study</strong></a>
+            <br>
+            <u>G. Settembre</u>, N. Corriero, N. Del Buono, F. Esposito, R. Rizzi<br>
+            <span style="color:#555555;">Proceedings Machine Learning, Optimization, and Data Science. LOD 2022. Lecture
+              Notes in Computer Science, vol 13810. pp. 93-107, Springer, Cham
+            </span>
+            <span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-031-25599-1_8"
+              data-style="small_rectangle"></span>
+          </li>
+        </ul>
+        </p>
+
+      </div>
+
+    </section><!-- /Publications Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Activities</h2>
+        <p>Here, you'll find a collection of contributions that reflect my involvement in knowledge dissemination,
+          student mentorship, project participation, and other activities related to academic career.
+          </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-12 col-md-12 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-easel"></i></div>
+            <div>
+              <h4 class="title">Talks</h4>
+              <p class="description">
+                <ul>
+                  <li>"Low-rank models for the analysis of Earth Observation (updates)"<br><span style="color:#555555;">Days 2024, 11 Jul 2024, Bari</span></li>
+                  <br>
+                  <li>"Unlocking insights from the sky: Low-rank methods in Remote Sensing"<br><span style="color:#555555;">XMaths Workshop 2023, 21 Dec 2023, Bari</span></li>
+                  <br>
+                  
+                  <li>"Low-rank Hierarchical Clustering of PRISMA hyperspectral images to identify burned areas"<br>
+                    <span style="color:#555555;">MACLEAN: Workshop on Machine Learning for Earth Observation @ECML/PKDD, 18 Sep 2023, Turin</span></li>
+                  <br>
+                  <li>"Low-rank models for the analysis of Earth Observation"<br>
+                    <span style="color:#555555;">PhD Days 2023, 11 Jul 2023, Bari</span></li>
+                  <br>
+                  <li>"A low-rank based approximation framework for real world data integration"<br>
+                    <span style="color:#555555;">Numerical Analysis and Scientific Computation with Applications (NASCA), 06 Jul 2023, Athens</span></li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-12 col-md-12 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-arrow-down-up"></i></div>
+            <div>
+              <h4 class="title">Journal/Conference reviewing</h4>
+              <p class="description">
+                <ul>
 									<li>Journal of Computational Mathematics and Data Science (ISSN: 2772-4158)</li>
 									<li>International Conference on Knowledge-Based and Intelligent Information & Engineering Systems (KES 2024)</li>
 								</ul>
-								<!--<div class="academic-rol mt-1 language"><span data-en="Teaching Assistant" data-es="Profesor de Prácticas"></span></div>
-								<div class="academic-year language">3.00 ECTS. <span data-en="February 2023 - June 2023" data-es="Febrero 2023 - Junio 2023"></span></div>
-								<div class="mt-1"><a href="https://twitter.com/AMPE_UMU" target="_blank" class="link-dark"><i class="fa-brands fa-twitter"></i></a></div> -->
-							</div>
+              </p>
+            </div>
+          </div><!-- End Service Item -->
 
-							<div class="academic-block mt-4">
-								<div class="arial h5 academic-name language"> <span data-en="Others" data-it="Altro"></span></div>
+          <div class="col-lg-12 col-md-12 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-people-fill"></i></div>
+            <div>
+              <h4 class="title">Organizing/Technical Program Committee</h4>
+              <p class="description">
 								<ul>
-									<li>Volunteer: DeepLearn23 Spring - Bari (Italy), April 03-07, 2023 <a href="https://deeplearn.irdta.eu/2023sp/" class="link-dark" target="_blank">[link]</a></li>
+									<li>3rd Workshop of UMI Group Mathematics for AI and Machine Learning, Jan 29-31, 2025 <a href="https://umi-math4aiml2025.uniba.it" target="_blank">[link]</a></li>
+									<li>3rd PRIMO Workshop 2023 - Bari (Italy), Sep 20-22, 2023 <a href="https://primo2023.uniba.it" target="_blank">[link]</a></li>
+									<li>10th XMaths Workshop 2022 - Bari (Italy), Dec 21-22, 2022 <a href="https://xmathsworkshop.weebly.com" target="_blank">[link]</a></li>
 								</ul>
-							</div>
 
-							<div class="academic-block mt-4">
-								<div class="arial-console h5 academic-name language"> <span data-en="Third Mission" data-it="Terza Missione"></span></div>
+                <ul>
+									<li>Invited Session on Leveraging Digital Twins in Healthcare @KES - Seville (Spain), Sep 11-13, 2024 <a href="https://sites.google.com/view/ldth2024/home?authuser=0" target="_blank">[link]</a></li>
+								</ul>
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-12 col-md-12 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-eyeglasses"></i></div>
+            <div>
+              <h4 class="title">Tutoring and/or teaching</h4>
+              <p class="description">
+                <ul>
+                  <li>“Metodi Decisionali e Ottimizzazione”, Degree Course: LM-91 Data Science, exam assistant</li>
+                  <li>“Metodi numerici per la Data Science”. Degree Course: L-35 in Mathematics, exam assistant</li>
+                  <li>“Metodi di Ottimizzazione per la Data Science e l'Intelligenza Artificiale”. Degree Course: LM-40 Mathematics, exam assistant</li>
+                </ul>
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-12 col-md-12 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-suitcase-lg"></i></div>
+            <div>
+              <h4 class="title">Projects</h4>
+              <p class="description">
 								<ul>
-									<li>European Research Night 2023 (Notte Europea dei Ricercatori) - Bari (Italy), September 29, 2023</li>
+									<li>Marine Biomass Innovation (MBI) project <a href="https://mbiproject.ca/project-description/" target="_blank">[link]</a></li>
+									<li>Low-rank models and Optimization algorithms for Data Analysis (GNCS funded) <a href="" target="_blank">[link]</a></li>
+								</ul>	
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-12 col-md-12 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-hand-index"></i></div>
+            <div>
+              <h4 class="title">Others</h4>
+              <p class="description">
+                <ul>
+									<li>European Research Night 2023 (Notte Europea dei Ricercatori) - Athens (Greece), September 27, 2024</li>
+                  <li>European Research Night 2023 (Notte Europea dei Ricercatori) - Bari (Italy), September 29, 2023</li>
+                  <li>Volunteer: DeepLearn23 Spring - Bari (Italy), April 03-07, 2023 <a href="https://deeplearn.irdta.eu/2023sp/" target="_blank">[link]</a></li>
 								</ul>
-							</div>
-
-						</div>
-
-						<!-- <div class="row mt-4 language">
-							<h2 class="student-h2" data-es="Alumnos" data-en="Students"></h2>
-
-							<div class="student-block">
-								<div class="student-name"> José Ángel Nicolás Ortega </div>
-								<div class="mt-1 language h5 lucida-console"><span data-en="Register Bank Modeling on GPUs with MGPUSim" data-es="Modelado del Banco de Registros en GPUs con MGPUSim"></span></div>
-								<div class="student-mark fireworks language">9.9 <span data-es="Sobresaliente - M. Honor" data-en="Outstanding - H.M."></span> </div>
-								<div class="mt-2 student-period"> <span data-en="September 2022 - June 2023" data-es="Septiembre 2022 - Junio 2023"></span> </div>
-						</div> -->
-
-					</div>
-				</div>
-
-				<!-- Clases particulares -->
-				<div class="col-md-12 mb-5" id="particularContent">
-					<div class="container language">
-						<h1 class="particular-h1 mb-3" data-es="La calidad siempre es prioritaria." data-en="Quality always goes first."></h1>
-						
-						<h4 class="particular-clickable">🧑 <span class="particular-h4"><span data-es="¿Quién es " data-en="Who's "></span><span class="particular-name">Nicolás Meseguer</span>?</span></h4>
-						<div class="container">
-							<div class="row mb-4 align-middle align-items-center">
-								<div class="col-sm-0 col-md-4 col-lg-3">
-									<div>
-										<img src="assets/img/NicolasMeseguer.webp" alt="Nicolás Meseguer" class="profilepicture-particular w-75 d-block">
-									</div>
-								</div>
-								<div class="col-md-8">
-									👋 ¡Hola a todos! A mis 25 años puedo afirmar rotúndamente que soy un apasionado de la informática y la enseñanza. He estado inmerso en el fascinante mundo de la tecnología desde que era un niño y desde entonces, he recorrido un largo camino académico y profesional.<br><br> Mi viaje comenzó con un Grado Superior en Desarrollo Web, seguido de un Grado en Ingeniería Informática en la UCAM, y luego un Máster en Nuevas Tecnologías en Informática en la Universidad de Murcia.<br><br> Actualmente, estoy trabajando en mi doctorado, mientras tengo el privilegio de dar clases en la Universidad de Murcia.
-								</div>
-							</div>
-							<div>
-								En mi experiencia docente, he encontrado que cada estudiante es único y merece un <span class="underline">enfoque de enseñanza personalizado</span> que se ajuste a sus propias necesidades y ritmo de aprendizaje. Por ello, mi objetivo principal es brindar una enseñanza de calidad y adaptada a cada uno de mis alumnos, con posibilidad de <span class="underline">enseñanza en Inglés y Castellano</span>. Estos son algunos de mis enfoques de enseñanza:
-								<br><br>
-								<ol>
-									<li><b>Apoyo constante</b>: Estoy disponible para resolver dudas o proporcionar ayuda adicional cuando sea necesario. Creo que la comunicación abierta y regular es clave para un aprendizaje efectivo. 📞</li>
-									<li><b>Herramientas innovadoras</b>: Utilizo herramientas de última generación para facilitar el aprendizaje y hacer que incluso los conceptos más complejos sean comprensibles. Uso de tabletas para ilustrar ideas, software colaborativo para trabajar en tiempo real, o proporcionar materiales de estudio personalizados. 💻📚</li>
-									<li><b>Paciencia y comprensión</b>: Entiendo que todos aprendemos a nuestro propio ritmo. Por lo tanto, mi enfoque es siempre paciente y alentador, asegurándome de que cada concepto se comprenda completamente antes de pasar al siguiente. 🤗</li>
-								</ol>
-							</div>
-						</div>
-
-						<h4 class="particular-clickable">💼 <span class="particular-h4" data-es="Experiencia previa" data-en="Previous experience"></span></h4>
-						<div>
-							<p>
-								Siempre he sido un apasionado de la informática. Mi historia con los ordenadores y la programación comenzó desde muy pequeño pero se puso en serio cuando me lancé a estudiar un <span class="underline">Grado Superior</span> de Desarrollo Web. No solo me encantó, sino que obtuve unas notas estupendas. Esto me abrió las puertas a una beca Erasmus+ para hacer prácticas en el extranjero. ¡Y sí, resulta que además de hablar informática, también hablo inglés bastante bien! 😂
-								<br><br>
-
-								Después de aquella experiencia, me sumergí en el <span class="underline">Grado en Ingeniería Informática</span> en la Universidad Católica San Antonio de Murcia (UCAM). Fueron años intensos y fascinantes en los que me llevé la sorpresa de mi vida al terminar con una media de 9.3 y, para mi asombro, ¡recibir el premio al mejor expediente de mi promoción! 🤯 (+26 matrículas de honor).
-								<br><br>
-								
-								Pero mi amor por la informática y la curiosidad por seguir aprendiendo no conocían límites, así que me lancé a por un <span class="underline">Máster en Nuevas Tecnologías en Informática</span> en la Universidad de Murcia. Durante este tiempo, tuve la suerte de trabajar codo con codo con el Barcelona Supercomputing Center (BSC) en mi Trabajo de Fin de Máster, que acabó con una calificación de 9.9. Durante esos años, también tuve la oportunidad de compartir mi pasión por la informática a través de dos artículos que publiqué en congresos nacionales.
-								<br><br>
-								
-								Hoy, gracias a una beca de la prestigiosa Fundación Séneca (¡y estoy muy orgulloso de ser uno de los cuatro seleccionados en toda la región!), estoy metido de lleno en mis <span class="underline">estudios de doctorado</span>. Y para redondear esta aventura, también tengo la increíble oportunidad de dar clases en la Universidad de Murcia, donde este año soy el profesor encargado de las prácticas de la asignatura Arquitecturas Multinúcleo y de Propósito Específico (AMPE). ¡Así que aquí estoy, listo para compartir todo lo que he aprendido en mi camino!
-							</p>
-						</div>
-
-						<h4 class="particular-clickable">🎓 <span class="particular-h4" data-es="Especializaciones y cursos" data-en="Specializations and courses"></span></h4>
-						<div>
-							<p>
-								Con mi amplia formación y experiencia, puedo ayudar a estudiantes de todas las edades y niveles, desde la primaria hasta la universidad. Aquí tienes una idea de las áreas en las que me especializo:
-
-								<ol>
-									<li><b>Informática básica</b>: Desde cómo utilizar un ordenador, navegación por internet, hasta seguridad informática básica, puedo ayudar a los más jóvenes a familiarizarse y desenvolverse en el mundo digital. 🖥️</li>
-									<li><b>Programación y desarrollo web</b>: ¿Estás interesado en aprender a programar o a crear tu propia página web? Puedo enseñar desde los fundamentos de la programación hasta los lenguajes más avanzados, y orientar en el diseño y desarrollo de sitios web. 💻🌐</li>
-									<li><b>Asignaturas universitarias de informática</b>: Si estás cursando un Grado o Máster en Informática y necesitas ayuda extra, puedo ofrecer soporte en asignaturas de computación, arquitectura, sistemas operativos, entre otras. 🎓🔬</li>
-									<li><b>Inglés Técnico</b>: Gracias a mi experiencia estudiando y trabajando en el extranjero, puedo ayudarte a mejorar tu inglés técnico y académico, una habilidad esencial en el mundo de la informática y la tecnología. 🌍🗣️</li>
-								</ol>
-
-								Mi enfoque es siempre adaptar las lecciones a las necesidades específicas de cada estudiante. Así que <span class="underline">si tienes una solicitud especial, no dudes en comunicarte conmigo</span>, estaré encantado de atender tus necesidades o las de tu hijo. 🤝
-							</p>
-						</div>
-
-						<h4 class="particular-clickable">📚 <span class="particular-h4" data-es="Material didáctico" data-en="Educational materials"></span></h4>
-						<div>
-							<p>
-								Una de las cosas que realmente diferencia mis clases de las de otras academias o profesores particulares es el enfoque práctico y colaborativo que utilizo. Para asegurarme de que mis alumnos realmente comprendan y apliquen lo que aprenden, hago uso de una variedad de herramientas didácticas y tecnológicas:
-								
-								<ol>
-									<li><b>Tableta e iPad</b>: Utilizo mi tableta y iPad para dibujar y explicar conceptos en tiempo real durante las clases. Esto significa que tendrás una explicación visual clara de lo que estoy enseñando, lo que facilitará la comprensión y retención. 🎨📱</li>
-									<li><b>Programas de dibujo</b>: Domino una serie de programas de dibujo que me permiten ilustrar ideas y conceptos de una manera fácil de entender. Así, los alumnos pueden visualizar exactamente lo que estamos discutiendo y cómo se aplica. 🖌️💡</li>
-									<li><b>Herramientas colaborativas</b>: Utilizo herramientas como Miro y Draw.io, que permiten a los alumnos participar y colaborar en tiempo real. Esto significa que no solo verán lo que hago, sino que también tendrán la oportunidad de participar proactivamente y aprender haciendo. 🔄🎲</li>
-								</ol>
-
-								El uso de estas herramientas modernas y colaborativas permite a los alumnos experimentar un aprendizaje interactivo y atractivo que no solo los ayudará a entender los conceptos, sino que también les dará las habilidades prácticas que necesitarán en el mundo real.
-								<br><br>
-								¡El objetivo siempre es proporcionar una enseñanza de la más alta calidad y hacer del aprendizaje una experiencia agradable y valiosa! 🌟🚀
-							</p>
-						</div>
-
-						<h4 class="particular-clickable">💰 <span class="particular-h4" data-es="Precio hora" data-en="Price per hour"></span></h4>
-						<div>
-							<p>
-								Entiendo que la calidad de la educación es una inversión importante para el futuro. Mi enfoque siempre ha sido proporcionar un servicio excepcional que supere las expectativas y justifique cada euro invertido.
-								<br><br>
-
-								El precio establecido es de <b>20 euros/hora</b>. Este precio refleja la calidad de la enseñanza que ofrezco, incluyendo mi amplia experiencia, mi enfoque personalizado y la utilización de herramientas de aprendizaje interactivas y modernas.
-								<br><br>
-
-								Para mayor comodidad, acepto varios métodos de pago, incluyendo <span class="underline">Bizum</span>, <span class="underline">Transferencia Bancaria</span> y <span class="underline">PayPal</span>. Quiero hacer que el proceso sea lo más sencillo y sin complicaciones posible para ti.
-								<br><br>
-
-								Al final, no solo estás pagando por un tutor, sino por una experiencia educativa de alta calidad, una que te brindará de las herramientas y la confianza que necesita para tener éxito en tu carrera académica y/o profesional. 🎯💎
-							</p>
-						</div>
-
-						<h4 class="particular-clickable">❓ <span class="particular-h4" data-es="Preguntas Frecuentes" data-en="FAQ"></span></h4>
-						<div>
-							<p>
-								<ol>
-									<li><b>¿Se puede adaptar al horario de mi hijo?</b>: Sé lo ocupadas que pueden llegar a ser las vidas de los estudiantes, por lo que ofrezco un horario flexible y adaptable a tus necesidades. ⏰🔄</li>
-									<li><b>Si una clase se cancela, ¿qué pasa?</b>: Entiendo que los imprevistos pueden surgir. Si necesitas cancelar una clase, buscaremos juntos otro horario que se acomode. La meta siempre es no perder la oportunidad de aprender y crecer. 🔄📅</li>
-									<li><b>¿Qué métodos de pago aceptas?</b>: Para hacer que el proceso sea lo más conveniente posible, acepto varios métodos de pago, incluyendo Bizum, transferencia bancaria y PayPal. 💰💳</li>
-									<li><b>¿Qué garantiza que la enseñanza será de alta calidad?</b>: Mi experiencia académica y profesional hablan por sí mismas. Además, me dedico a usar herramientas y técnicas de enseñanza modernas y efectivas para asegurar el mejor aprendizaje posible. 🎯🌟</li>
-								</ol>
-
-								Si tienes alguna otra pregunta que no haya sido respondida aquí, por favor no dudes en ponerte en contacto conmigo. Estoy aquí para ayudarte y asegurarme de que recibas la mejor educación posible. 🤝💡
-							</p>
-						</div>
-
-						<h4 class="particular-clickable">📞 <span class="particular-h4" data-es="Contacto" data-en="Contact"></span></h4>
-						<div>
-							<p>
-								¡Si tienes alguna pregunta, necesitas más información, o te gustaría programar una clase inicial, no dudes en ponerte en contacto conmigo!
-								<br><br>
-								
-								Puedes enviarme un mensaje a mi dirección de correo electrónico de trabajo: 📧 <a href="mailto:n.mesegueriborra@um.es" class="link-dark">n.mesegueriborra@um.es</a>.
-								<br><br>
-
-								Si prefieres usar WhatsApp, también puedes enviarme un mensaje al siguiente número: <span class="underline">+34 ??? ?? ?? ??</span>. Por favor, ten en cuenta que este número sólo está disponible para mensajes de WhatsApp. 📱
-							</p>
-						</div>
-
-					</div>
-				</div>
-
-				<!-- Conferences -->
-				<div class="col-md-8 offset-md-1 mb-5" id="conferencesContent">
-					<div class="container language">
-						⚠️ 
-						<span 
-							data-es="Estamos trabajando en ello..."
-							data-en="Work in progress...">
-						</span>
-						⏱️
-						</div>
-				</div>
-
-				<!-- Experience -->
-				<div class="col-md-8 offset-md-1" id="experienceContent">
-					<div class="container language">
-						⚠️ 
-						<span 
-							data-es="Estamos trabajando en ello..."
-							data-en="Work in progress...">
-						</span>
-						⏱️
-						</div>
-				</div>
-
-				<!-- Projects -->
-				<div class="col-md-8 offset-md-1" id="projectsContent">
-					<div class="container language">
-						⚠️ 
-						<span 
-							data-es="Estamos trabajando en ello..."
-							data-en="Work in progress...">
-						</span>
-						⏱️
-						</div>
-				</div>
-
-				<!-- Template -->
-				<!--
-				<div class="col-md-8 offset-md-1" id="nameContent">
-					<div class="container language">
-					⚠️ 
-					<span 
-						data-es="Estamos trabajando en ello..."
-						data-en="Work in progress...">
-					</span>
-					⏱️
-					</div>
-				</div>
-				-->
+              </p>
+            </div>
+          </div><!-- End Service Item -->
 
 
-			</div>
-		</div>
 
+        </div>
 
-		<!-- Scripts -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-		<script src="assets/js/main.js"></script>
-	</body>
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Testimonials Section 
+    <section id="testimonials" class="testimonials section light-background">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+                    Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum
+                    velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
+                    minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim
+                    duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt
+                    culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section>
+  -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>You can contact me via email. I'm also available at the Department of Mathematics here in Bari.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Room 16 - II floor, Dept. of Mathematics<br>
+                    Via E. Orabona, 4 - Bari - Italy</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Me</h3>
+                  <p>+39 080 5443387</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Me</h3>
+                  <p><a href="mailto:gaetano.settembre@uniba.it">gaetano.settembre@uniba.it</a></p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2419.7379059391824!2d16.87882568852028!3d41.10891287764286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1347e84f1dbb82ed%3A0x2386871d336207ca!2sDepartment%20of%20Mathematics!5e0!3m2!1sen!2sus!4v1728560541803!5m2!1sen!2sus"
+                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Gaetano Settembre, University of Bari Aldo Moro.</strong><span>All Rights Reserved</span>
+        </p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Original template by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>
