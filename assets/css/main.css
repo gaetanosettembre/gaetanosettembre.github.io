@@ -773,7 +773,7 @@ section,
 }
 
 .resume .resume-item ul li {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .resume .resume-item:last-child {
@@ -813,6 +813,10 @@ section,
   text-transform: uppercase;
   margin-bottom: 10px;
   transition: all 0.3s ease-in-out;
+}
+
+.portfolio ul li {
+  padding-bottom: 25px;
 }
 
 .portfolio .portfolio-filters li:hover,
