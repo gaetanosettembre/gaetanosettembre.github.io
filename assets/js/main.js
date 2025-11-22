@@ -131,7 +131,12 @@
    * Initiate glightbox
    */
   const glightbox = GLightbox({
-    selector: '.glightbox'
+    selector: '.glightbox',
+    touchNavigation: true,
+    keyboardNavigation: true,
+    closeButton: true,
+    loop: true,
+    zoomable: true
   });
 
   /**
@@ -185,6 +190,49 @@
   }
 
   window.addEventListener("load", initSwiper);
+
+  /**
+   * Init Photo Gallery Swiper
+   */
+  function initPhotoGallery() {
+    const photoGallerySlider = document.querySelector('.photogallery-slider');
+    if (photoGallerySlider) {
+      new Swiper(photoGallerySlider, {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+      });
+    }
+  }
+
+  window.addEventListener("load", initPhotoGallery);
 
   /**
    * Correct scrolling position upon page load for URLs containing hash links.
