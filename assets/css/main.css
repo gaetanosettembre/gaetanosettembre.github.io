@@ -181,6 +181,18 @@ h6 {
   color: var(--heading-color);
 }
 
+.header .affiliations {
+  margin-bottom: 15px;
+}
+
+.header .affiliations img {
+  height: 25px;
+  width: auto;
+  margin: 0 5px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
 .header .social-links {
   margin: 0 0 20px 0;
 }
