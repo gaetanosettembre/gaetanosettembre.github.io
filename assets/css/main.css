@@ -774,6 +774,14 @@ section,
   border: 2px solid var(--accent-color);
 }
 
+.resume .resume-item img {
+  height: 30px;
+  width: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
