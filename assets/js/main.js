@@ -275,3 +275,17 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+  /**
+   * Fix AOS recalculation on Accordion toggle
+   */
+  window.addEventListener('load', () => {
+    const accordions = document.querySelectorAll('.accordion');
+    accordions.forEach(accordion => {
+      accordion.addEventListener('shown.bs.collapse', () => {
+        if (typeof AOS !== 'undefined') AOS.refresh();
+      });
+      accordion.addEventListener('hidden.bs.collapse', () => {
+        if (typeof AOS !== 'undefined') AOS.refresh();
+      });
+    });
+  });

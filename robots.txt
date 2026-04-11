@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /assets/documents/
+Allow: /assets/documents/GaetanoSettembreCV.pdf
+Allow: /privacy-policy.html
+Allow: /
+
+Sitemap: https://gaetanosettembre.github.io/sitemap.xml
+
+Host: gaetanosettembre.github.io
